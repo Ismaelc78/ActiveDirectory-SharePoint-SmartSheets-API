@@ -1,5 +1,5 @@
 ## PowerShell Script 
-De-Identified method used to compare data from different sites for training and access requirments from users.( SharePoint Lists, SmartSheet data, Active Directory Groups, DocuSign)
+De-Identified sample used to compare data from different sites for training and access requirments from users.( SharePoint Lists, SmartSheet data, Active Directory Groups, DocuSign)
 
 Pulls required data through REST APIs/PowerShell :  
 * Active Directory users by group 
