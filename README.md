@@ -1,7 +1,7 @@
 ## PowerShell Script 
 De-Identified method used to compare data from different sites for training and access requirments from users.( SharePoint Lists, SmartSheet data, Active Directory Groups, DocuSign)
 
-Pulls required data through REst APIs/PowerShell :  
+Pulls required data through REST APIs/PowerShell :  
 * Active Directory users by group 
 * Google Admin Active users 
 * Pull CGCP requests for AD/GCP accounts from SharePoint
@@ -22,7 +22,7 @@ Saving/Upload:
 ## Process / Organization
 #### 1. SharePoint.ps1:
    * Prompts user for SharePoint credentials
-   * Connect/Authenticate with SharePointOnline Admin access via REst API
+   * Connect/Authenticate with SharePointOnline Admin access via REST APIs
    * Query SharePoint Online for desired SharePoint List data.
    * Saves queried data as .csv files in SharePoint folder (TrainingLog.csv, AccessRequests.csv)
    * Notifes User when complete.
@@ -34,7 +34,7 @@ Saving/Upload:
 #### 2. AuditScript.ps1 :
    * Calls Staff.ps1
      * Prompts user for SmartSheet credentials
-     * Connect/Authenticate SmartSheets access via REst API
+     * Connect/Authenticate SmartSheets access via REST APIs
      * Pulls Data from a worksheet in SmartSheets as StaffList
      * Imports GCP TrainingLog
      * Imports DocuSign spreadsheet
