@@ -44,7 +44,7 @@ Saving/Upload:
      * Compares GCP TrainingLog vs Staff List
      * Checks and marks Expiration Status (< 30 Days,   < 5 Days,   Expired)
      * Saves data as tables in Excel Workbooks (Staff.xlsx , TrainingAudit(date).xlsx)
-     *TrainingAudit(date).xlsx  ![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/Ismaelc78/ActiveDirectory-SharePoint-SmartSheets-API/blob/main/Staff.png))  
+     *TrainingAudit(date).xlsx*  ![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/Ismaelc78/ActiveDirectory-SharePoint-SmartSheets-API/blob/main/Staff.png))  
      
      
    * Calls AD_script.ps1
@@ -62,7 +62,7 @@ Saving/Upload:
    * Imports GCP Access Requests List
    
    * Imports Google Admin Active Users Spreadsheet 
-   *AD_Audit(date).xlsx  ![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/Ismaelc78/ActiveDirectory-SharePoint-SmartSheets-API/blob/main/GAdmin.png))  
+   *GAdmin.csv*  ![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/Ismaelc78/ActiveDirectory-SharePoint-SmartSheets-API/blob/main/GAdmin.png))  
    
    * Conducts GCP Audt
      * Compares GCP User Account Requests vs Google Admin Active Users
@@ -72,7 +72,7 @@ Saving/Upload:
    * Conducts AD Audit
      * Compares Active Directory Groups/Users against GCP Access Request List
      * Format Table as requied
-   *AD_Audit(date).xlsx  ![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/Ismaelc78/ActiveDirectory-SharePoint-SmartSheets-API/blob/main/Audit.png))    
+   *AD_Audit(date).xlsx*  ![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/Ismaelc78/ActiveDirectory-SharePoint-SmartSheets-API/blob/main/Audit.png))    
    * Save Files in desired SharePoint folder.
    
        
